@@ -50,9 +50,23 @@ with  open(train_instance, 'rb') as  inp:
 
 ## Metric
 
-Average binary cross entropy loss value and objective value made by trained GNN is measured.
+Average binary cross entropy loss value and objective value made by trained GNN is measured. The metrics are calculated by your submitted selected nodes of all graphs in four test dataset.
+
+|       	| Avg. loss 	| Avg. objective 	|
+|-------	|-----------	|----------------	|
+| test1 	| x         	| x              	|
+| test2 	| x         	| x              	|
+| test3 	| x         	| x              	|
+| test4 	| x         	| x              	|
+
 
 
 ## Example training code
+I share minimal train/validation code using simple graph convolutional network as an example.
 
     python train.py
+
+
+## Contact
+
+hanbumko95@korea.ac.kr
