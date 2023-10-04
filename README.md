@@ -43,7 +43,7 @@ You can import the data via following code.
 import pickle
 
 instance_path = './datasets_xai606/train/instance_0.pkl'
-with  open(train_instance, 'rb') as  inp:
+with  open(instance_path, 'rb') as  inp:
     networkx_graph, torch_graph, label = pickle.load(inp)
 ```
 
