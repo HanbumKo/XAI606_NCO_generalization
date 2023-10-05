@@ -1,4 +1,5 @@
 
+
 # XAI606_NCO_generalization
 
 Lecture XAI606 proejct repo.
@@ -65,6 +66,16 @@ Average binary cross entropy loss value and objective value made by trained GNN 
 I share minimal train/validation code using simple graph convolutional network as an example.
 
     python train.py
+
+
+
+## Requirements
+Specific version is not needed. Please install missing library via pip. Major libraries are
+
+    torch_geometric
+    torch
+    pickle
+    networkx
 
 
 ## Contact
